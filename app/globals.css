@@ -1,26 +1,16 @@
+@import "leaflet/dist/leaflet.css";
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-earth-dark: #121210;
+  --color-earth-card: #1C1B18;
+  --color-earth-sand: #E4DFD5;
+  --color-earth-accent: #C2A676;
+  --color-earth-muted: #8C857B;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-earth-dark);
+  color: var(--color-earth-sand);
+  font-family: system-ui, -apple-system, sans-serif;
 }
