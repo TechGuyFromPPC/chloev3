@@ -84,17 +84,17 @@ export default function Home() {
           <AnalyticsSection />
         </section>
 
-        {/* Featured Series Section */}
-        <section id="series" className="py-24 px-6 max-w-7xl mx-auto border-t border-earth-card/30 bg-earth-dark/40 backdrop-blur-sm">
-          <div className="max-w-xl mb-12">
-            <span className="text-xs font-semibold tracking-widest uppercase text-earth-accent">Portfolio Work</span>
-            <h2 className="text-3xl font-bold mt-2">Featured Series</h2>
-            <p className="text-earth-sand/80 mt-2">
-              High-impact visual narratives and serialized storytelling built for global audiences.
-            </p>
-          </div>
-          <SeriesGrid />
-        </section>
+    {/* Featured Series Section */}
+<section id="series" className="py-24 px-6 max-w-7xl mx-auto border-t border-earth-card/30 bg-earth-dark/40 backdrop-blur-sm">
+  <div className="max-w-xl mb-12">
+    <span className="text-xs font-semibold tracking-widest uppercase text-earth-accent">Portfolio Work</span>
+    <h2 className="text-3xl font-bold mt-2">Featured Series</h2>
+    <p className="text-earth-sand/80 mt-2">
+      High-impact visual narratives and serialized storytelling built for global audiences.
+    </p>
+  </div>
+  <SeriesGrid />
+</section>
 
         {/* Brand Partners Section */}
         <BrandPartners />
